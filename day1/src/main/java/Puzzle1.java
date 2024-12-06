@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class App {
+public class Puzzle1 {
     public static void main(String[] args) {
         String fileName = "input.txt";
         List<Integer> leftList = new ArrayList<>();
