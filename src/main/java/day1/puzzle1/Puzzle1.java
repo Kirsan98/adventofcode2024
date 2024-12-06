@@ -1,4 +1,4 @@
-package src.main.java;
+package src.main.java.day1.puzzle1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Puzzle1 {
     public static void main(String[] args) {
-        String fileName = "input.txt";
+        String fileName = "src/main/java/day1/puzzle1/input.txt";
         List<Integer> leftList = new ArrayList<>();
         List<Integer> rightList = new ArrayList<>();
         int distance = 0;

@@ -1,16 +1,15 @@
-package src.main.java;
+package src.main.java.day1.puzzle2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
 public class Puzzle2 {
     public static void main(String[] args) {
-        String fileName = "input.txt";
+        String fileName = "src/main/java/day1/puzzle1/input.txt";
         List<Integer> leftList = new ArrayList<>();
         List<Integer> rightList = new ArrayList<>();
         int distance = 0;
